@@ -1,0 +1,60 @@
+@media (max-width: 767px)  {
+    .buttons{
+        margin-left: -25%
+    }
+    .date{
+        
+        margin: 43px 0 20px 11%;
+    }
+    
+}
+/***********************************************************************************************************/
+@media (min-width: 768px) and (max-width:991px) {
+    .container-fluid{
+        padding-left: 0
+    }
+    .navbar .collapse {
+    float: left;
+    margin: -1px -16px;
+    }
+    .buttons{
+        margin-left: 0%;
+    }
+    .date{
+            margin: 45px 0 20px 43%;
+    }
+    .rating{
+        margin-left: -18px;
+    }
+    .navbar-nav>li {
+        float: left;
+        margin-left: -16px;
+    }
+    .navbar-nav .active{
+        margin-left: -8px;
+        padding-right: 8px;
+    }
+}
+
+
+/***********************************************************************************************************/
+@media (min-width:992px){
+    .navbar-nav>li {
+    float: left;
+    text-align: center;
+    padding: 0 5px;
+    }
+    .navbar-nav .active{
+        margin-left: -8px;
+        padding-right: 5px;
+    }
+    .date{
+        margin: 45px 0 20px 46%;
+    }
+    .buttons{
+        margin-left: 0%;
+    }
+    .rating{
+        margin-left: -20px;
+    }
+}
